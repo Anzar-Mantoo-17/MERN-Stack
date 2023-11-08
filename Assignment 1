@@ -1,0 +1,12 @@
+1. V8 (used in Google Chrome and Opera): Developed by Google, V8 is known for its speed and
+efficiency in executing JavaScript.
+2. SpiderMonkey (used in Mozilla Firefox): Developed by Mozilla, SpiderMonkey is one of the early
+JavaScript engines and is known for its compliance with standards and performance.
+3. JavaScriptCore (used in Safari): Developed by Apple, JavaScriptCore (also known as Nitro)
+powers Safari's JavaScript execution and is known for its speed and optimization.
+4. Chakra (used in legacy versions of Microsoft Edge and Internet Explorer): Developed by
+Microsoft, Chakra was used in older versions of Edge and Internet Explorer.
+5. ChakraCore (used in legacy versions of Microsoft Edge): An open-source JavaScript engine
+developed by Microsoft, ChakraCore was the engine behind older versions of Edge.
+6. Rhino (used in Mozilla Rhino and other Java-based applications): Rhino is a JavaScript engine
+developed by Mozilla and is primarily used in Java-based applications for JavaScript execution
