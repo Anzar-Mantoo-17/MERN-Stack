@@ -1,0 +1,74 @@
+Q1.  What is wireframe  ?
+A wireframe is a visual representation or blueprint that outlines the basic structure and layout of a web page, app, or any digital interface. It's a low-fidelity, simplified visual guide that demonstrates the skeletal framework of the interface without the design elements like colors, images, or specific fonts.
+Wireframes are created early in the design process to focus on the arrangement of elements, content positioning, and user interface functionality. They serve as a communication tool between designers, developers, and stakeholders, helping them understand the layout and functionality of the interface before investing time in detailed design work or coding.
+These wireframes can be hand-drawn sketches, created using specialized software, or even made using simple tools like pen and paper. They help in visualizing the basic structure of the interface and serve as a foundation for the subsequent design and development stages.
+
+Q2. What is Mock-up ?
+A mock-up is a high-fidelity visual representation or a more detailed and polished version of a design concept. It's a static, visual model that represents the final appearance of a digital product, such as a website, application, or any user interface. Mock-ups provide a more comprehensive and detailed view compared to wireframes.
+Key characteristics of mock-ups include:
+1.	Visual Design Elements: They incorporate visual elements like colors, typography, images, and specific UI components to reflect the final look and feel of the product.
+2.	More Detailed Structure: Unlike wireframes, mock-ups showcase more specific details, demonstrating the exact placement of elements, user interface features, and overall aesthetics.
+3.	Static Representation: Mock-ups are generally static and do not contain interactive elements or functionalities. They serve as a visual reference for the final design.
+Mock-ups are crucial in the design process as they help stakeholders and design teams get a clearer understanding of how the final product will look. They provide a more tangible and realistic representation of the intended design, allowing for feedback, testing, and iterations before moving on to the development phase. These visual representations help in aligning design ideas and ensuring that the final product meets the intended objectives and user expectations.
+
+Q3. 6 best designed websites of this year.
+Lacoste Heritage:
+Lacoste Heritage overwhelms the visitor in a pleasing way with big, bold, and engaging imagery. The platform shows off some of the clothing brand’s most popular offerings and provides a seamless browsing experience.
+
+RCA Records:
+RCA took some major risks with this website, but the acclaimed label pulled it off. The site is ambitious, interactive, and dynamic. It features a fast-moving image gallery at the top of the home page, highlighting today’s most popular artists and the icons of yesteryear.
+
+Unseen Studio:
+Unseen Studio opted for a mix of soft colors and bold text to draw visitors’ attention to core site elements. As users move their cursors around the home page, the screen view shifts slightly. When the cursor passes over the menu text, the lettering changes colors and shimmers.
+
+Hyer:
+Hyer greets users with captivating visuals — a sleek private jet slowly transitions from left to right across the user’s screen while they take in the site. The home page also makes good use of negative (i.e., white or blank) space to avoid overwhelming users.
+
+FPP:
+The website doesn’t rely on loud colors or hyperbolic imagery but instead incorporates softer tones to create an aesthetically pleasing digital environment and an enjoyable user experience.
+
+Mubasic:
+One of the most interesting features of the site is its unique Q&A section. As you scroll down the page, images pop up to accompany each question and answer.
+Q4. Difference between Programming language and Scripting language.
+Programming languages and scripting languages are both tools used to create software, but they have some fundamental differences in their use, implementation, and intended purposes.
+Programming Languages:
+1.	Compiled vs. Interpreted: Many traditional programming languages like C, C++, and Java are compiled languages. They require a separate compilation step where the code is translated into machine-readable instructions before execution. Compiled languages produce executable files that can run independently of the source code.
+2.	Performance: Compiled languages often result in faster and more efficient code execution since they are translated directly into machine code.
+3.	Usage: They are used for developing standalone software, system software, operating systems, and complex applications.
+Scripting Languages:
+1.	Interpreted: Scripting languages such as Python, JavaScript, and Ruby are interpreted languages. They don't require a separate compilation step. Instead, they are executed by an interpreter line-by-line during runtime.
+2.	Flexibility: Scripting languages are typically more flexible and easier to use due to their dynamic typing, simpler syntax, and automatic memory management.
+3.	Use Cases: They are commonly used for web development, automation, rapid prototyping, and performing specific tasks or scripts within larger systems.
+Key Differences:
+1.	Execution: Programming languages are compiled or may use a combination of compilation and interpretation, while scripting languages are generally interpreted.
+2.	Performance: Traditional programming languages often yield faster performance due to the precompiled nature, while scripting languages may sacrifice some performance for ease of use and flexibility.
+3.	Use Cases: Programming languages are used for larger software development, including system software, applications, and more complex functionalities. Scripting languages are used for smaller-scale tasks, automation, and web-related development.
+However, with advancements in technology, the lines between programming and scripting languages have blurred. Some languages, like Python, which is often considered a scripting language, are versatile enough to be used for both scripting and broader application development. The distinction between the two has become less defined as newer languages incorporate features of both categories.
+
+Q5. What is ECMA Script 5 ?
+ECMAScript 5 (ES5) is a standardized scripting language specification for JavaScript. It is an iteration of the ECMAScript standard, defining the scripting language that forms the basis for JavaScript. ES5 was published in December 2009 by the Ecma International organization.
+Key features and updates introduced in ECMAScript 5 include:
+1. Strict Mode: ES5 introduced strict mode, which is a way to opt into a restricted variant of JavaScript. It helps to avoid common programming errors by throwing more exceptions and preventing certain actions. It's activated by adding `"use strict";` at the beginning of a script or a function.
+2. Accessors: ES5 added getter and setter methods that allow for defining properties in objects. Getters are used to get the property value, while setters are used to set the value.
+3. New Methods: Several new methods were introduced in ES5, such as `Array.prototype.forEach()`, `Array.prototype.map()`, `Array.prototype.filter()`, and `Array.prototype.reduce()`. These methods offer more efficient ways to work with arrays.
+4. JSON Object: ES5 standardized the `JSON` object, adding `JSON.parse()` and `JSON.stringify()` methods for parsing JSON strings and converting JavaScript objects to JSON strings, respectively.
+5. Object.create(): The introduction of `Object.create()` method that allows creating a new object with the specified prototype object and properties.
+
+Q6. Various versions of ECMA Ssript.
+ECMAScript standards serve as a guide for implementing JavaScript in web browsers and other environments. Subsequent versions like ECMAScript 6 (ES6) and beyond have introduced even more features and improvements to the language, building upon the foundation laid out by ES5.
+The ECMAScript language, commonly known as JavaScript, has gone through several versions, each introducing new features, syntax enhancements, and improvements. Here are the versions of ECMAScript up to my last knowledge update in January 2023:
+1.	ECMAScript 1 (ES1): This was the first standardized version of ECMAScript, published in June 1997. It laid the groundwork for the JavaScript language.
+2.	ECMAScript 2 (ES2): Published in June 1998, ES2 introduced minor changes and editorial corrections to the ES1 specification.
+3.	ECMAScript 3 (ES3): Released in December 1999, ES3 brought significant changes and added new features like try/catch exception handling, regular expressions, better string manipulation, and more.
+4.	ECMAScript 4 (ES4): This version was under development but eventually abandoned due to disputes and disagreements in the standards committee.
+5.	ECMAScript 5 (ES5): Published in December 2009, ES5 introduced strict mode, JSON support, new methods for arrays, and other improvements to the language.
+6.	ECMAScript 6 (ES6) / ECMAScript 2015: Released in June 2015, ES6 was a major update to the language, bringing many new features like arrow functions, classes, modules, template literals, and more.
+7.	ECMAScript 7 (ES7) / ECMAScript 2016: Adopting a yearly release cycle, ES7, released in June 2016, introduced features like Array.prototype.includes and exponential operator (**) for exponentiation.
+8.	ECMAScript 8 (ES8) / ECMAScript 2017: Published in June 2017, ES8 introduced async/await for asynchronous programming, Object.values/Object.entries, String padding, and other enhancements.
+9.	ECMAScript 9 (ES9) / ECMAScript 2018: Released in June 2018, ES9 included features like spread/rest properties for objects, asynchronous iteration, Promise.finally, and more.
+10.	ECMAScript 10 (ES10) / ECMAScript 2019: Published in June 2019, ES10 added Array.prototype.flat, Array.prototype.flatMap, Object.fromEntries, String trimming, and more.
+11.	ECMAScript 11 (ES11) / ECMAScript 2020: Released in June 2020, ES11 introduced features like optional chaining (?.), nullish coalescing operator (??), and others.
+12.	ECMAScript 12 (ES12) / ECMAScript 2021: This version, released in June 2021, brought features like String.prototype.replaceAll, Promise.any, Logical Assignment Operators, and more.
+The ECMAScript specification is continually evolving, with yearly updates introducing new functionalities, syntax enhancements, and improvements to the language. The development process involves proposing new features, discussing, and eventually standardizing them into the ECMAScript language specification.
+
+
