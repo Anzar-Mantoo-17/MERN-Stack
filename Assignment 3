@@ -1,0 +1,86 @@
+Q1. What is URL ?
+A URL, which stands for Uniform Resource Locator, is a web address used to find specific resources on the internet. It serves as a fundamental way to identify and access various items such as web pages, files, images, and more.
+Comprised of different parts, a URL includes:
+1.	Scheme: This indicates the method or protocol used to access the resource, such as HTTP or HTTPS.
+2.	Domain (or Host): This specifies the location or server where the resource is hosted, like "www.example.com."
+3.	Path: It shows the specific location of the resource on the server, for instance, "/path/to/resource."
+4.	Query Parameters: These additional parameters are used to pass information to the server and come after the path, such as "?q=url."
+5.	Fragment: This references a specific section within a web page, found after the '#' symbol in the URL, like "#section."
+Here's an example of a URL broken down into its parts:
+https://www.example.com:8080/path/to/resource?query=example#section
+|       |   |             |               |          |         |
+scheme domain        port     path       query     fragment
+Q2. Different DOCTYPES of previous html versions.
+In HTML, the Document Type Declaration (DOCTYPE) is used to specify the version of HTML a web page is using. Here are the DOCTYPEs of some previous HTML versions:
+1.	HTML 4.01 Strict: This is a DOCTYPE declaration for HTML 4.01 without presentational elements (like font) and deprecated attributes.
+2.	HTML 4.01 Transitional: This DOCTYPE allows the use of presentational elements and deprecated attributes in addition to the standard elements.
+3.	HTML 4.01 Frameset: It permits frames in addition to the elements of the transitional type.
+4.	XHTML 1.0 Strict: This DOCTYPE represents a stricter version of XHTML 1.0 without deprecated elements or attributes.
+5.	XHTML 1.0 Transitional: Similar to HTML 4.01 Transitional, this DOCTYPE permits presentational elements and deprecated attributes.
+6.	XHTML 1.0 Frameset: Allows frames in addition to the elements of the transitional type in XHTML 1.0.
+HTML versions and their DOCTYPEs have evolved over time to adhere to standards and improve compatibility, accessibility, and functionality on the web. As of my last update in January 2022, HTML5 became the latest standard, and it uses a much simpler and shorter DOCTYPE:> 
+This DOCTYPE is used for modern HTML5 web documents. It's simpler compared to previous versions, providing more flexibility and advanced features for web development. Always ensure to use the correct DOCTYPE declaration to ensure proper rendering and compatibility with browsers.
+Q3. Difference between HTTP and HTTPS.
+The primary difference between HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure) lies in their level of security:
+1.	Security:
+•	HTTP: It transmits data in plain text, which means the information exchanged between the user's browser and the web server is not encrypted. This lack of encryption makes it susceptible to interception, potentially compromising sensitive information such as login credentials or credit card details.
+•	HTTPS: In contrast, HTTPS uses encryption to secure the data transmitted between the user's browser and the web server. This encryption is typically accomplished using SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security), which encrypts the data, making it significantly more difficult for unauthorized parties to intercept and decipher.
+2.	Data Transfer:
+•	HTTP: It transfers data without encryption, which makes it faster in comparison to HTTPS due to the absence of the encryption and decryption process.
+•	HTTPS: The encryption and decryption process can marginally slow down the data transfer speed due to the additional security protocols. However, advancements in technology have significantly minimized this difference in modern systems.
+3.	Port:
+•	HTTP: Operates over port 80.
+•	HTTPS: Operates over port 443.
+4.	Security Indication:
+•	HTTP: It does not display a padlock icon in the address bar of the browser, nor does it include "https://" at the beginning of the URL.
+•	HTTPS: Displays a padlock icon in the address bar of most modern browsers and starts with "https://" in the URL, signaling a secure connection to the user.
+5.	Trust and SEO:
+•	Websites using HTTPS are often seen as more secure, trustworthy, and reliable. Search engines, including Google, often give a ranking boost to websites using HTTPS, making it essential for better SEO performance.
+In summary, HTTPS offers a more secure and encrypted connection compared to HTTP. It's vital, especially for websites that handle sensitive data, as it helps protect user information and ensures a safer browsing experience. As a result, the usage of HTTPS has become the standard for websites, promoting better security and privacy across the internet.
+Q4. What is DOM
+The DOM, or Document Object Model, is a programming interface for web documents. It represents the structure of a document (typically an HTML or XML document) and defines how this structure can be accessed, manipulated, and updated. The DOM essentially creates a structured representation of the document as a tree of objects.
+Here are the key points about the DOM:
+1.	Structured Representation: The DOM represents the structure of a document in a tree-like structure, where each node represents a part of the document (e.g., elements, attributes, and text).
+2.	Programming Interface: It provides a set of objects that can be manipulated by programming languages, typically JavaScript. This allows developers to access, modify, add, or delete elements within a web page.
+3.	Dynamic Nature: The DOM is dynamic, meaning that it can be modified in real-time. Elements can be added, removed, or changed, and these changes are reflected instantly in the displayed web page.
+4.	Standard Model: The DOM is a W3C (World Wide Web Consortium) standard, ensuring consistency and compatibility across different web browsers.
+When a web page is loaded into a browser, the browser generates the DOM, which then serves as the structured representation of the page's content. JavaScript can then be used to access and manipulate elements within the DOM, enabling dynamic interactions and changes to the webpage.
+For instance, JavaScript can be used to:
+•	Access and change the content of HTML elements.
+•	Modify CSS styles of elements.
+•	Add or remove HTML elements dynamically.
+•	Respond to user actions like clicks and keyboard input.
+Overall, the DOM is a crucial part of web development, enabling interactive and dynamic web pages by allowing developers to access and manipulate the structure, content, and style of web documents.
+Q6. What are Meta tags in html ?
+Meta tags in HTML are elements that provide metadata about an HTML document. They are placed within the <head> section of an HTML page and are not displayed on the web page itself, but rather contain information about the document. This metadata can include various types of information that help search engines, browsers, and other web services understand and process the webpage.
+Here are some common uses and types of meta tags:
+1.	Meta Description:
+•	<meta name="description" content="Description of the webpage">
+•	It provides a brief summary or description of the webpage's content. Search engines may use this description in search results to give users an idea of what the page is about.
+2.	Meta Keywords (deprecated):
+•	<meta name="keywords" content="keyword1, keyword2, keyword3">
+•	Previously used to specify keywords relevant to the content of the page. However, many search engines now ignore or give less weight to these keywords due to misuse and abuse.
+3.	Meta Title:
+•	<title>Title of the Webpage</title>
+•	Not a meta tag, but placed within the <head> section. It defines the title of the webpage, which appears in the browser tab and search engine results.
+4.	Meta Charset:
+•	<meta charset="UTF-8">
+•	Specifies the character encoding used in the document (e.g., UTF-8, ISO-8859-1).
+5.	Viewport Meta Tag (for responsive design):
+•	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+•	Helps control how a webpage is displayed on different devices, especially mobile devices, by setting the width and scaling.
+6.	Meta Robots:
+•	<meta name="robots" content="index, follow">
+•	Controls search engine behavior on how they index and follow links on the page.
+Meta tags play a significant role in SEO (Search Engine Optimization) as they provide information to search engines about the content of a webpage. They influence how search engines index and display the page in search results.
+Web developers and content creators use meta tags to optimize web pages for better visibility in search results and to improve the overall user experience by providing accurate and descriptive information about the content.
+Q7. What is W3C ?
+The World Wide Web Consortium (W3C) is an international community that develops standards and guidelines for the World Wide Web. It was founded in 1994 by Tim Berners-Lee, the inventor of the World Wide Web, and operates as a global consortium where member organizations, full-time staff, and the public work together to ensure the long-term growth and stability of the web.
+The W3C's primary mission is to lead the web to its full potential by developing protocols and guidelines that ensure the long-term growth of the web. This includes:
+1.	Developing Standards: W3C develops and maintains technical standards and guidelines for the web, ensuring interoperability and quality among various web technologies. These standards include HTML, CSS, accessibility guidelines, XML, and more.
+2.	Accessibility: W3C works on guidelines and recommendations for making web content accessible to people with disabilities, ensuring that the web is open and usable for everyone.
+3.	Internationalization: W3C focuses on making the web accessible and usable globally by addressing issues related to different languages, scripts, and cultures.
+4.	Privacy and Security: The consortium also works on standards and recommendations concerning privacy, security, and data management on the web.
+W3C operates through working groups, which consist of technical experts, industry leaders, and interested individuals who collaborate to develop and refine web standards. The consortium encourages broad participation, transparent processes, and consensus-based decision-making to ensure the quality and stability of the web standards.
+The standards developed by W3C are crucial for the consistent development of the web, ensuring that different browsers and platforms can interpret and display web content in a consistent and reliable manner. Following W3C standards facilitates a more accessible, interoperable, and user-friendly web experience for both developers and users.
+
