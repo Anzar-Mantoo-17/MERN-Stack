@@ -1,0 +1,62 @@
+Q1. Difference between Framework and API.
+A framework and an API (Application Programming Interface) are both tools used in software development, but they serve different purposes and operate at different levels of abstraction.
+Framework:
+1.	Definition:
+•	A framework is a pre-built architecture or structure that provides a foundation for developers to build upon.
+•	It typically includes libraries, tools, and best practices for solving common problems in a specific domain.
+2.	Functionality:
+•	Frameworks dictate the overall structure and flow of the application.
+•	They provide a skeleton for developers to fill in with their code.
+3.	Inversion of Control:
+•	In a framework, the control flow is inverted. The framework calls the developer's code, rather than the developer calling the framework.
+4.	Comprehensive:
+•	Frameworks are often more extensive and provide a higher level of abstraction, covering a wide range of functionalities.
+5.	Example:
+•	Django and Ruby on Rails for web development.
+•	TensorFlow and PyTorch for machine learning.
+API (Application Programming Interface):
+1.	Definition:
+•	An API is a set of rules and tools that allows different software applications to communicate with each other.
+•	It defines the methods and data formats that applications can use to request and exchange information.
+2.	Functionality:
+•	APIs define specific functions or protocols that developers can use to interact with a particular software component or service.
+3.	Inversion of Control:
+•	In an API, the control flow is typically in the hands of the developer. The developer calls the API to use its functionality.
+4.	Specific Functionality:
+•	APIs are generally more focused and provide specific functionalities, such as data retrieval, manipulation, or access to a service.
+5.	Example:
+•	The Java API provides a set of classes and methods for Java development.
+•	The Twitter API allows developers to integrate Twitter functionality into their applications.
+Relationship:
+•	A framework may include APIs. In other words, a framework might provide a set of APIs that developers use to accomplish specific tasks within the framework.
+•	APIs, on the other hand, can exist independently of frameworks. They are interfaces that allow different software components or services to communicate, and they can be used in various contexts, not necessarily within a framework.
+In summary, a framework provides a broader structure and set of conventions for building applications, while an API offers a defined set of functionalities that developers can use to interact with specific components or services.
+
+Q2.ASCII character set VS UTF-8 character set VS UTF-16 character set.
+ASCII, UTF-8, and UTF-16 are different character encodings used to represent text in computers. Here's a brief overview of each:
+1.	ASCII (American Standard Code for Information Interchange):
+•	Character Set: ASCII is a character encoding standard that uses a 7-bit code to represent characters. It defines 128 characters, including 33 control characters and 95 printable characters.
+•	Size: Each ASCII character is encoded using 7 bits, allowing for a total of 128 different characters.
+2.	UTF-8 (Unicode Transformation Format - 8-bit):
+•	Character Set: UTF-8 is a variable-width character encoding that can represent every character in the Unicode character set. It is backward compatible with ASCII, meaning the first 128 characters in UTF-8 are the same as in ASCII.
+•	Size: UTF-8 uses a variable number of bytes to encode characters. Commonly used characters (in English and many other languages) are represented with one byte, while less common characters and symbols may use more bytes.
+3.	UTF-16 (Unicode Transformation Format - 16-bit):
+•	Character Set: UTF-16 is also a variable-width character encoding that represents characters in the Unicode character set. It uses 16 bits (2 bytes) for most characters but can use 4 bytes for characters outside the Basic Multilingual Plane (BMP).
+•	Size: Characters in the Basic Multilingual Plane (BMP) use 2 bytes, while characters outside the BMP use 4 bytes.
+Comparison:
+•	ASCII is limited to 128 characters and doesn't cover characters from many languages or special symbols.
+•	UTF-8 is more space-efficient for English text and is widely used on the internet. It's backward compatible with ASCII.
+•	UTF-16 uses a fixed 2-byte size for most characters but can be less space-efficient for English text. It's commonly used in Windows systems.
+In summary, ASCII is a simpler encoding limited to basic characters, while UTF-8 and UTF-16 are more versatile and can represent a broader range of characters, with UTF-8 being more prevalent on the internet due to its compatibility with ASCII and space efficiency for English text. The choice of encoding depends on the requirements of the application and the types of characters it needs to support.
+
+Q3.What is SEO ?
+SEO stands for "Search Engine Optimization." It refers to the practice of optimizing a website or online content to improve its visibility and ranking on search engine results pages (SERPs). The primary goal of SEO is to increase the likelihood of a website or webpage being found by users when they search for relevant information using search engines like Google, Bing, or Yahoo.
+Key aspects of SEO include:
+1.	Keywords: Identifying and using relevant keywords in website content that users are likely to search for. This involves researching the terms and phrases that are most relevant to the business or topic.
+2.	On-Page SEO: Optimizing individual pages of a website for search engines. This includes using appropriate title tags, meta descriptions, headings, and ensuring that the content is high-quality, relevant, and well-structured.
+3.	Off-Page SEO: Building the authority and credibility of a website through external factors. This can include acquiring backlinks from reputable websites, social media engagement, and other factors that contribute to the website's overall reputation.
+4.	Technical SEO: Ensuring that the technical aspects of a website contribute to its search engine friendliness. This involves optimizing site speed, using proper HTML markup, creating a sitemap, and making the website accessible to search engine crawlers.
+5.	User Experience (UX): Providing a positive experience for users, as search engines often prioritize websites that offer a good user experience. This includes factors such as site navigation, mobile-friendliness, and page load times.
+6.	Local SEO: Optimizing a website for local searches, especially important for businesses targeting a local audience. This includes creating and optimizing Google My Business profiles, local citations, and location-specific content.
+The ultimate aim of SEO is to improve a website's organic (non-paid) visibility in search engine results, driving more relevant traffic to the site. As search engines continuously evolve their algorithms, SEO practices also need to adapt to ensure continued effectiveness.
+
