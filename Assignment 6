@@ -1,0 +1,31 @@
+Q1. What is SVG(Scalable Vector Graphics) ?
+SVG stands for Scalable Vector Graphics. It's an XML-based vector image format used for two-dimensional graphics that can be scaled without losing quality. Unlike raster image formats like JPEG or PNG, which store information in a grid of pixels, SVG uses mathematical equations to describe shapes and curves, making it resolution-independent. This means SVG images can be resized without becoming pixelated, making them ideal for logos, icons, illustrations, and other graphics used across different screen sizes and resolutions. Additionally, SVG files can be edited with text editors or graphic design software and can contain animations and interactivity through JavaScript.
+Q2. What is JPEG ?
+JPEG stands for Joint Photographic Experts Group, which is both a file format and a method of compressing digital images. It's one of the most common formats for storing and transmitting photographic images on the internet and digital devices.
+JPEG files use lossy compression, which means they discard some image data to reduce file size. This compression method is particularly effective for photographs and images with complex color variations, as it can significantly reduce the file size while retaining a reasonably high level of image quality. However, this compression can lead to a loss in image quality, especially if the image is repeatedly edited and saved in the JPEG format.
+JPEG images are versatile and widely supported across various platforms and software applications, making them popular for sharing photos online, storing images on digital cameras, and displaying images on websites. They strike a balance between file size and image quality, making them a suitable choice for many digital imaging purposes.
+
+Q3. What is PNG ?
+PNG stands for Portable Network Graphics. It's a raster graphics file format that was specifically designed to replace GIF (Graphics Interchange Format). PNG files are commonly used for web graphics, digital images, and icons.
+Key features of PNG:
+1.	Lossless Compression: PNG uses lossless compression, meaning it retains all image data when the file is compressed. This allows for high-quality images without losing detail.
+2.	Transparency: PNG supports an alpha channel, which means it can have transparent areas. This makes it suitable for graphics where you want parts of the image to be see-through, like logos and icons that might need to blend with different backgrounds.
+3.	Color Depth: PNG supports various color depths, including grayscale, indexed-color, true color, and true color with alpha channel, allowing for flexibility in handling different types of images.
+PNG is commonly used for images with text, line art, or graphics with areas of solid colors. Its support for transparency and lossless compression makes it particularly useful for web graphics, digital art, and images that require crisp detail and a transparent background.
+
+Q4. What is defference between SVG,JPEG,PNG ?
+SVG, JPEG, and PNG are all image file formats, but they differ in how they store and display images:
+1.	SVG (Scalable Vector Graphics):
+•	SVG is a vector-based image format that uses mathematical equations to define shapes, lines, and colors.
+•	It's resolution-independent, meaning it can scale infinitely without losing quality.
+•	Best suited for logos, icons, and graphics that need to be scaled across different screen sizes.
+2.	JPEG (Joint Photographic Experts Group):
+•	JPEG is a compressed image format that uses lossy compression, meaning some image data is discarded to reduce file size.
+•	Commonly used for photographs and images with complex color variations.
+•	While it can offer high compression ratios, repeated saving of a JPEG image can lead to a loss in quality due to the compression process.
+3.	PNG (Portable Network Graphics):
+•	PNG is a lossless compressed image format that supports transparency (alpha channels).
+•	Ideal for images with text, line art, or graphics with areas of solid colors.
+•	Offers high-quality images without losing detail, and it supports transparent backgrounds, making it useful for web graphics.
+In summary, SVG is best for scalable graphics and icons, JPEG for photographs and complex images where some loss of quality is acceptable, and PNG for images with transparency and crisp details that need to maintain their quality regardless of scaling. The choice of format often depends on the specific requirements of the image and its intended use.
+
