@@ -1,0 +1,45 @@
+Q1. What is source and attribute of <image tag>
+The <img> tag in HTML is used to embed images within a webpage. Here's a detailed breakdown of its attributes:
+Attributes of the <img> tag:
+1.	src (source):
+•	The src attribute is mandatory and specifies the URL or path to the image file.
+•	Example: <img src="image.jpg">
+2.	alt (alternative text):
+•	The alt attribute provides alternative text for the image. It's crucial for accessibility and is displayed if the image fails to load or for users who rely on screen readers.
+•	Example: <img src="image.jpg" alt="Description of the image">
+Additional optional attributes:
+3.	width and height:
+•	These attributes define the width and height of the image in pixels. They can be used to specify the image's dimensions, which helps the browser reserve space for the image before it loads.
+•	Example: <img src="image.jpg" alt="Description" width="300" height="200">
+4.	title:
+•	The title attribute provides additional information about the image. It's displayed as a tooltip when the user hovers over the image.
+•	Example: <img src="image.jpg" alt="Description" title="Additional information">
+Usage:
+<  src="image.jpg" alt="Description" width="300" height="200" title="Additional information"> 
+Best Practices:
+•	Always include an alt attribute for accessibility and SEO purposes.
+•	Use meaningful and descriptive alt text that conveys the image's content or function.
+•	Specify image dimensions when possible to prevent layout shifts when the page loads.
+•	Use title attributes when providing additional information that might be helpful to users.
+The <img> tag is fundamental for displaying images on websites and plays a significant role in making content accessible to all users, regardless of their browsing environment or abilities.
+
+Q2. What is Title tag in image and what is its work ?
+The title attribute within the <img> tag in HTML is used to provide supplementary information about an image. Here's a detailed breakdown:
+Purpose of the title Attribute in the <img> Tag:
+1.	Tooltip Information: When a user hovers their cursor over an image on a webpage, the browser displays a small tooltip. The content of this tooltip is taken from the title attribute of the <img> tag. It provides additional context or details about the image.
+2.	Enhancing Accessibility: While the alt attribute is crucial for accessibility, especially for screen readers and in cases where the image fails to load, the title attribute can complement the alt text by providing further information to sighted users who hover over the image.
+Example Usage:
+<imsrc="image.jpg" alt="Description" title="Additional information"> 
+How it Works:
+•	Tooltip Display: The content specified in the title attribute appears as a tooltip when the user hovers their cursor over the image. This tooltip typically appears after a short delay and disappears when the cursor moves away.
+•	Additional Information: The title attribute can include brief details about the image, such as a caption, a short description, or any relevant information that adds context or explanation to the image.
+Best Practices:
+1.	Relevance: Ensure that the information in the title attribute is relevant and adds value to the user's understanding or interaction with the image.
+2.	Conciseness: Keep the title text concise to avoid lengthy tooltips that might disrupt the user experience.
+HTML Example:
+<g src="image.jpg" alt="Description of the image" title="This is a beautiful landscape photo taken at sunset."> 
+Benefits:
+•	Enhanced User Experience: The title attribute helps users get more information about an image without needing to click or navigate away from the page.
+•	Accessibility Enhancement: While primarily for sighted users, the title attribute can assist in providing more context for an image, especially for users who might benefit from additional information.
+In essence, the title attribute in the <img> tag is a tool for providing supplementary information that enhances the user experience and adds context to images on a webpage.
+
